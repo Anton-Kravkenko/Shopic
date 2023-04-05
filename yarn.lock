@@ -1967,6 +1967,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "clsx@npm:1.2.1"
+  checksum: cae17fd0fd5ea449d000c681169a8a6f7add4929b369cae3e2d5b604fba2798b39334121e467dbf6ac752562c28a6894a443f30761b004317c0668eb031af52d
+  languageName: node
+  linkType: hard
+
 "co@npm:^4.6.0":
   version: 4.6.0
   resolution: "co@npm:4.6.0"
@@ -5190,6 +5197,7 @@ __metadata:
     "@types/styled-components": "npm:^5"
     "@types/testing-library__jest-dom": "npm:^5"
     autoprefixer: "npm:^10.4.14"
+    clsx: "npm:^1.2.1"
     jest: "npm:^29.5.0"
     jest-environment-jsdom: "npm:^29.5.0"
     next: "npm:^13.2.4"
