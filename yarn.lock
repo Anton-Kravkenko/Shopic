@@ -609,6 +609,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@headlessui/react@npm:^1.7.13":
+  version: 1.7.13
+  resolution: "@headlessui/react@npm:1.7.13"
+  dependencies:
+    client-only: "npm:^0.0.1"
+  peerDependencies:
+    react: ^16 || ^17 || ^18
+    react-dom: ^16 || ^17 || ^18
+  checksum: f0badf7755c7bb5268a212060a2d3b8b890b867b210fb9c4cbb234b862b9d9fea1bb7d7a21598e2df5f098e573d2c3bfa09dcfe4853e828496f86ea8a13dbb38
+  languageName: node
+  linkType: hard
+
 "@istanbuljs/load-nyc-config@npm:^1.0.0":
   version: 1.1.0
   resolution: "@istanbuljs/load-nyc-config@npm:1.1.0"
@@ -1949,7 +1961,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"client-only@npm:0.0.1":
+"client-only@npm:0.0.1, client-only@npm:^0.0.1":
   version: 0.0.1
   resolution: "client-only@npm:0.0.1"
   checksum: d2117e1ff1ceaaa6c21ce705f5516fbdb197d5a10e7ebc6f698cb550cae63394da07d1a73045bc208f5608e953523ac807009cfb88a7e4c740df5da347ce722f
@@ -5188,6 +5200,7 @@ __metadata:
     "@emotion/react": "npm:^11.10.6"
     "@emotion/styled": "npm:^11.10.6"
     "@fontsource/roboto": "npm:^4.5.8"
+    "@headlessui/react": "npm:^1.7.13"
     "@reduxjs/toolkit": "npm:^1.9.3"
     "@testing-library/jest-dom": "npm:^5.16.5"
     "@testing-library/react": "npm:^14.0.0"

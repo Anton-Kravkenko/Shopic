@@ -6,13 +6,13 @@ import {MenuItem} from "./MenuItem";
 const Header = () => {
 	return <div className='p-4 mx-4 flex mx-auto max-w-[1200px] items-center justify-between'>
 		<div className='flex gap-4 items-center'>
-			<div>
+			<Link href='/'>
 		<Image alt='Logo' src={{
 		src: '/logo.png',
 		height: 30,
 		width: 100,
 		}} />
-			</div>
+			</Link>
 			<div className='flex items-center'>
 				{
 					MenuItem.map((item, index) => (
